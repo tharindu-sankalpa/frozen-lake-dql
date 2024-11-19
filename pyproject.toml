@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "frozen-lake-dql"
+version = "0.1.0"
+description = "Deep Q-Learning implementation for FrozenLake environment"
+authors = ["VLTSankalpa <wltsankalpa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.0"
+gymnasium = "^1.0.0"
+numpy = "^1.24.0"
+matplotlib = "^3.9.0"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+black = "^24.1.0"
+isort = "^5.13.0"
+flake8 = "^7.0.0"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=frozen_lake_dql --cov-report=term-missing --cov-report=html"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
