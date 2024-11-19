@@ -3,7 +3,6 @@ name = "frozen-lake-dql"
 version = "0.1.0"
 description = "Deep Q-Learning implementation for FrozenLake environment"
 authors = ["VLTSankalpa <wltsankalpa@gmail.com>"]
-license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
