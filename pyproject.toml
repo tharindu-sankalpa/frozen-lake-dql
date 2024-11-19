@@ -1,3 +1,5 @@
+# frozen_lake_dql/pyproject.toml
+
 [tool.poetry]
 name = "frozen-lake-dql"
 version = "0.1.0"
