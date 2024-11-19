@@ -1,3 +1,4 @@
+# frozen_lake_dql/utils/visualization.py
 """Visualization utilities for training metrics and agent behavior."""
 from typing import List, Optional
 

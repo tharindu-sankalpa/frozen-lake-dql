@@ -1,3 +1,4 @@
+# frozen_lake_dql/utils/config.py
 """Configuration settings for the DQN agent and training."""
 from dataclasses import dataclass
 from typing import Optional
