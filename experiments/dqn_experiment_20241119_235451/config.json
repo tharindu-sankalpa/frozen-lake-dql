@@ -1,0 +1,19 @@
+{
+    "episodes": 1000,
+    "max_steps": 100,
+    "slippery": false,
+    "hidden_size": 64,
+    "lr": 0.001,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.01,
+    "epsilon_decay": 0.995,
+    "memory_size": 10000,
+    "batch_size": 32,
+    "eval_episodes": 10,
+    "render_eval": false,
+    "log_interval": 100,
+    "save_interval": 500,
+    "exp_name": null,
+    "load_model": null
+}
